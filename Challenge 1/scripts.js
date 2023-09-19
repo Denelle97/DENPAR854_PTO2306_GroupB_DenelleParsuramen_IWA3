@@ -1,7 +1,6 @@
 // scripts.js
 
-import'./configuration' // corrected path
-import {year} from './configuration' //added parenthesis {} and changed form to from
+ import {company , year} from './configuration.js'
 
 const message = '© ' + company + ' (' + year + ')'
-document.querySelector('footer').innerText = message
+console.log(document.querySelector('footer').innerText = message);
