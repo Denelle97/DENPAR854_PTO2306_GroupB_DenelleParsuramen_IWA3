@@ -11,7 +11,6 @@ Challenge 1
 
 -Link JS File in HTML file
 -ADDED DEFFER ATTRIBUTE to load html then JS
--import'./configuration' // corrected path
 -import {year} from './configuration' //added parenthesis {} and changed form to from
 -export const company = 'ACME Inc.' //added export
 -export const year = 2022 ;//added export

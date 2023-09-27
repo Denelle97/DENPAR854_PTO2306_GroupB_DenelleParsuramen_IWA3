@@ -3,4 +3,5 @@
  import {company , year} from './configuration.js'
 
 const message = '© ' + company + ' (' + year + ')'
-console.log(document.querySelector('footer').innerText = message);
+document.querySelector('footer').innerText = message //DOM fetch footer, innertext( puts the value in the object)
+//select object dom then 
